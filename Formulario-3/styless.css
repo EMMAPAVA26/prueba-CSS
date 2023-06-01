@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image:
+    url(imagenes/fotonoticia_20181030121629_1200.jpg);
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+.container{
+    position: relative;
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    top: 200px;
+    left: 450px;
+   
+    
+    
+
+}
+
+.titulo-1 {
+position: absolute;
+color: white;
+left: 20px;
+font-weight: inherit;
+margin-top: 15px;
+
+
+}
+
+.Amarilla{
+    
+    width: 90%;
+    position: absolute;
+    height: 295px;
+    left: 2px;
+    top: 2px;
+    background-color: #035293;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+    
+    
+
+}
+
+.blanca{
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    height: 296px;
+    left: 265px;
+    top: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.face{
+    position: relative;
+    background-color: rgb(2, 2, 134);
+    border-style: none;
+    color: white;
+    font-size: 12px;
+    width: 200px;
+    height: 28px;
+    top: 70px;
+    left: 20px;
+    border-radius: 3px;
+    box-shadow:none;
+    
+}
+
+.face:hover {
+    background-color: rgb(2, 2, 134);
+    -webkit-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+}
+
+.tw{
+    position: relative;
+    background-color: rgb(1, 122, 155);
+    color: white;
+    border-style: none;
+    font-size: 12px;
+    width: 200px;
+    height: 28px;
+    top:80px;
+    left: 20px;
+    border-radius: 3px;
+    box-shadow:none;
+
+    
+
+}
+
+.tw:hover {
+    background-color: rgb(1, 122, 155);
+    -webkit-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+}
+
+
+.google{
+    position: relative;
+    background-color: rgb(123, 20, 20);
+    border-style: none;
+    color:aliceblue;
+    font-size: 12px;
+    width: 200px;
+    height: 28px;
+    top:90px;
+    left: 20px;
+    border-radius: 3px;
+    box-shadow:none;
+}
+
+.google:hover {
+    background-color: rgb(123, 20, 20);
+    -webkit-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+}
+
+.behance {
+    position: relative;
+    background-color: black;
+    border-style: none;
+    color: white;
+    font-size: 12px;
+    width: 200px;
+    height: 28px;
+    top: 100px;
+    left: 20px;
+    border-radius: 3px;
+    box-shadow:none;
+}
+
+.behace:hover {
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+    box-shadow: 4px 7px 16px 4px rgba(0, 0, 0, 0.14);
+}
+
+
+.titulo-2{
+position: absolute;
+color: black;
+left: 20px;
+font-weight: inherit;
+margin-top: 15px;
+
+}
+
+.username{
+    position: relative;
+    font-size: 12px;
+    width: 250px;
+    height: 28px;
+    top: 50px;
+    left: 20px;
+    border-color: #3480a4;
+}
+
+.email{
+    position: relative;
+    font-size: 12px;
+    width: 250px;
+    height: 28px;
+    top: 60px;
+    left: 20px; 
+    border-color: #3480a4;
+}
+
+.password{
+    position: relative;
+    font-size: 12px;
+    width: 250px;
+    height: 28px;
+    top: 70px;
+    left: 20px;
+    border-color: #3480a4;
+    
+}
+
+
+
+.boton{
+    position: relative;
+    width: 200px;
+    height: 28px;
+    top: 90px;
+    left: 20px;
+}
+
+.up{
+    width: 250px;
+    height: 35px;
+    font-size: 13px;
+    top: 140px;
+    color: white;
+    background-color: #3480a4;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.-flexbtn{
+    display:flex;
+    align-items: center;
+    
+    
+}
+
+.icon-svg{
+    width:16px; fill:white;  margin:0 8 0 8;
+}
+
